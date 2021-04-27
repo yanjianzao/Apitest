@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0571f57-7b0e-4bc1-915b-2e88086bdc15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testcese/test.py" afterDir="false" />
+    <list default="true" id="f0571f57-7b0e-4bc1-915b-2e88086bdc15" name="Default Changelist" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcese/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcese/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcese/testrequest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcese/testrequest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest in testrequest.py">
+  <component name="RunManager" selected="Python tests.pytest for testrequest.TestRequest.test_post">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="apitest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,6 +126,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for testrequest.TestRequest.test_post" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="apitest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcese" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testrequest.TestRequest.test_post&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in testrequest.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="apitest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,10 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for testrequest.TestRequest.test_post" />
         <item itemvalue="Python tests.pytest in testrequest.py" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python tests.pytest for testrequest.TestRequest.test_get" />
         <item itemvalue="Python tests.pytest for testrequest.TestRequest" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +177,14 @@
       <option name="presentableId" value="Default" />
       <updated>1619533838311</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1619537650289</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619537650289</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,23 +198,27 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="511" key="GridCell.Tab.0.bottom" timestamp="1619537354371">
+    <state width="1882" height="511" key="GridCell.Tab.0.bottom" timestamp="1619539774156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="511" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619537354371" />
-    <state width="1899" height="511" key="GridCell.Tab.0.center" timestamp="1619537354371">
+    <state width="1882" height="511" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619539774156" />
+    <state width="1882" height="511" key="GridCell.Tab.0.center" timestamp="1619539774156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="511" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619537354371" />
-    <state width="1899" height="511" key="GridCell.Tab.0.left" timestamp="1619537354371">
+    <state width="1882" height="511" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619539774156" />
+    <state width="1882" height="511" key="GridCell.Tab.0.left" timestamp="1619539774156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="511" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619537354371" />
-    <state width="1899" height="511" key="GridCell.Tab.0.right" timestamp="1619537354371">
+    <state width="1882" height="511" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619539774156" />
+    <state width="1882" height="511" key="GridCell.Tab.0.right" timestamp="1619539774156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="511" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619537354371" />
+    <state width="1882" height="511" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619539774156" />
     <state width="1899" height="538" key="GridCell.Tab.1.bottom" timestamp="1619537294058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -210,6 +239,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="446" y="329" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1619534333660" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619537666171">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619537666171" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1619535752256">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
